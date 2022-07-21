@@ -1,0 +1,136 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #0f141e;
+  background: #f1f1f1;
+  margin: 0;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 38px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+.info-text {
+  margin-left: 40px;
+}
+.info-text p {
+  color: #86898f;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+}
+.info-text h4 {
+  margin-bottom: 10px;
+}
+.card {
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+.bg-yellow {
+  background-color: rgb(154, 207, 158);
+}
+.bg-red {
+  background-color: rgb(223, 184, 152);
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+a {
+  color: #86898f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.list {
+  padding: 0px 20px;
+}
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+.form h2 {
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+.form-grup label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+.form-row .form-grup {
+  margin-right: 20px;
+  width: 50%;
+}
+.form-row .form-grup:nth-last-child {
+  margin-right: 0;
+}
+.form-grup input,
+.form-grup textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+@media (max-width: 600px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .form-row {
+    display: block;
+  }
+  .form-row .form-grup {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html,curse,css,tags" />
+    <meta name="description" content="Базовий курс html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Html-Curs</title>
+  </head>
+  <body>
+      <div class="container">
+      <div class="info">
+        <img src="avatar.jpg" class="avatar" alt="avatar" />
+        <div class="info-text">
+            <h1>Віталій Макаренко</h1>
+            <p>
+              Я <strong>підприємець</strong>, займаюсь різними видами
+              діяльності: <em> автозапчастинами,інвистиціями</em>.
+            </p>
+            <p>
+              На разі відкриваю для себе нову сферу
+              <strong><em> програмування!</em></strong>
+            </p>
+
+            <h4>Список соціальних мереж</h4>
+            <a  href="https://www.instagram.com/">instagram</a>
+            |
+            <a href="https://www.facebook.com/">facebook</a>
+          </div>
+        </div>
+      </header>
+      <div class=" card bg-yellow">
+        <h2>Мої хоббі</h2>
+        <ul class="list">
+          <li>Роблю суші</li>
+          <li>Займаюсь спортом</li>
+          <li>Цікавлюсь психологією</li>
+          <li>Вивчаю програмування</li>
+        </ul>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Досвід роботи</h2>
+        <table class="table">
+          <tr>
+            <td>Hop-Net</td>
+            <td>Admin</td>
+            <td>2013-2014</td>
+          </tr>
+          <tr>
+            <td>GRAS-Украхна</td>
+            <td>Упаковщик</td>
+            <td>2014-2017</td>
+          </tr>
+          <tr>
+            <td>ФОП</td>
+            <td>Підприємець</td>
+            <td>2017-нині</td>
+          </tr>
+        </table>
+      </div>
+
+      <form class="form" action="">
+        <h2>Звязатись зі мною</h2>
+        <div class="form-row">
+          <div class="form-grup">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя" />
+          </div>
+          <div class="form-grup">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email"   placeholder="Введите email"/>
+          </div>
+        </div>
+          
+          <div class="form-grup">
+              <label for="massage"> Ваше сообщение:</label>
+              <br>
+              <textarea name="massage" id="massage" cols="20" rows="4"></textarea> 
+            </div>
+   
+        <button   class="btn"  type="submit">Отправить!</button>
+      </form>
+    </div>
+  </body>
+</html>
